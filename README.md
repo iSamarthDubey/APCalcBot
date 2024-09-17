@@ -1,4 +1,4 @@
-### Arithmetic Progression Calculator
+## Arithmetic Progression Calculator
 
 A minimal Telegram bot that calculates the n'th term of an arithmetic progression (AP) based on the values provided by the user.
 
@@ -18,8 +18,7 @@ This Telegram bot calculates the n'th term of an arithmetic progression (AP) bas
 ## Table of Contents
 1. [Prerequisites](#prerequisites)
 2. [Local Host](#local-host)
-3. [Running the Bot in the Background](#running-the-bot-in-the-background)
-4. [License](#license)
+3. [License](#license)
 
 ---
 
@@ -42,8 +41,7 @@ cd APCalcBot
 ```
 
 ### 2. Edit the .env with correct Values
-
-2. Edit `.env` using `nano .env` with the correct value (Bot token).
+Edit `.env` using `nano .env` with the correct value (Bot token).
 
 ### 3. Setup Required Dependencies
 
