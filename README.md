@@ -44,8 +44,8 @@ pip install python-telegram-bot --upgrade
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/iSamarthDubey/AP-Calculator.git
-cd AP-Calc-Bot
+git clone https://github.com/iSamarthDubey/APCalcBot.git
+cd APCalcBot
 ```
 
 ### 2. Set up the Bot
@@ -58,7 +58,6 @@ cd AP-Calc-Bot
 ```bash
 pip install -r requirements.txt
 ```
-**Note**: Ensure that you are using `python-telegram-bot` version 20 or higher.
 
 ### 4. Run the Bot
 
@@ -91,12 +90,12 @@ nohup python3 bot.py &
 
 2. Create a new screen session:
    ```bash
-   screen -S telegram_bot
+   screen -S APCalcBot
    ```
 
 3. Run your bot inside the screen:
    ```bash
-   python3 bot.py
+   python3 bot.py 
    ```
 
 4. Detach from the screen (leave it running in the background):
@@ -117,5 +116,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - After deployment, your bot will remain operational and available for users to interact with on Telegram.
 
 ---
-
-Let me know if you need any other improvements!
