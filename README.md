@@ -31,13 +31,6 @@ To set up and run this bot, you will need:
 - Python 3.x installed on your local or remote machine.
 - Access to a VPS (if deploying the bot on a server) or Local Host.
 
-### Required Python Libraries
-Make sure to install the following Python library:
-```bash
-pip install python-telegram-bot --upgrade
-```
-
----
 
 ## Local Host
 
@@ -69,19 +62,19 @@ cd APCalcBot
      ```
 Once activated, you will see the virtual environment name in your terminal prompt.
 
-3. **Install Requirements**:
+4. **Install Requirements**:
 With the virtual environment activated, install the required Python libraries.
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run your bot inside the screen**:
+5. **Run your bot inside the screen**:
    ```bash
    python3 bot.py 
    ```
 Now, your bot should be up and running locally. You can interact with it using the Telegram app.
 
-5. **Detach from the screen (leave it running in the background)**:
+6. **Detach from the screen (leave it running in the background)**:
    ```bash
    Ctrl + A, then D
    ```
