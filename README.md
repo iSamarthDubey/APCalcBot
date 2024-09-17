@@ -48,57 +48,40 @@ git clone https://github.com/iSamarthDubey/APCalcBot.git
 cd APCalcBot
 ```
 
-### 2. Set up the Bot
+### 2. Edit the .env with correct Values
 
-1. Go to Telegram and create a new bot using **BotFather**. Follow the instructions and obtain the **API token**.
-2. Replace `YOUR_API_TOKEN` in `bot.py` with your actual bot token.
+2. Edit `.env` using `nano .env` with the correct value (Bot token).
 
-### 3. Install Python Dependencies
+### 3. Setup Required Dependencies
 
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the Bot
-
-```bash
-python bot.py
-```
-
-Now, your bot should be up and running locally. You can interact with it using the Telegram app.
-
----
-
-## Running the Bot in the Background
-
-To keep your bot running after disconnecting from the VPS, you can use one of the following options:
-
-### Option 1: `nohup`
-
-`nohup` allows your bot to keep running in the background:
-```bash
-nohup python3 bot.py
-```
-
-### Option 2: `screen`
-
-`screen` allows you to create a persistent session that you can reconnect to:
-1. Install `screen`:
-   ```bash
-   sudo apt install screen
-   ```
-
-2. Create a new screen session:
+1. Create a new screen session:
    ```bash
    screen -S APCalcBot
    ```
+2. **Create a virtual environment** in your project directory:
+   ```bash
+   virtualenv venv
+   ```
 
-3. Run your bot inside the screen:
+3. **Activate the virtual environment**:
+     ```bash
+     source venv/bin/activate
+     ```
+Once activated, you will see the virtual environment name in your terminal prompt.
+
+3. **Install Requirements**:
+With the virtual environment activated, install the required Python libraries.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run your bot inside the screen**:
    ```bash
    python3 bot.py 
    ```
+Now, your bot should be up and running locally. You can interact with it using the Telegram app.
 
-4. Detach from the screen (leave it running in the background):
+5. **Detach from the screen (leave it running in the background)**:
    ```bash
    Ctrl + A, then D
    ```
