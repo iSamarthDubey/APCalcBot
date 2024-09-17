@@ -77,7 +77,7 @@ To keep your bot running after disconnecting from the VPS, you can use one of th
 
 `nohup` allows your bot to keep running in the background:
 ```bash
-nohup python3 bot.py &
+nohup python3 bot.py
 ```
 
 ### Option 2: `screen`
