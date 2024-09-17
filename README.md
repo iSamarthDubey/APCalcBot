@@ -4,7 +4,7 @@ A minimal Telegram bot that calculates the n'th term of an arithmetic progressio
 
 ---
 
-## A Minimal Telegram Bot for Arithmetic Progression Calculation
+### A Minimal Telegram Bot for Arithmetic Progression Calculation
 
 This Telegram bot calculates the n'th term of an arithmetic progression (AP) based on the values provided by the user.
 
